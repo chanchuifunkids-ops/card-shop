@@ -16,7 +16,7 @@ export default function Home() {
   const [popularOnly, setPopularOnly] = useState(true);
   const [inventory, setInventory] = useState([]);
   const [purchases, setPurchases] = useState([]);
-  const [address, setAddress] = useState('123 Pallet Town Way');
+  const [address, setAddress] = useState('Hong Kong');
 
   // Sync Supabase Auth session
   useEffect(() => {
